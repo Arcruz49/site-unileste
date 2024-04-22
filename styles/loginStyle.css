@@ -4,7 +4,7 @@ body{
       align-items: center;
       height: 100vh; 
       margin: 0;
-      background: linear-gradient(to right, #000000, #44b6fd);;
+      background: linear-gradient(45deg, #000000 20%, #2c8bd4 0%);
 }
 
 

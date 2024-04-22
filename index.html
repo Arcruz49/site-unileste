@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="styles/indexStyle.css">
+
+</head>
+<body>
+
+    <nav>
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo center">Projeto Materialize</a>
+          <ul id="nav-mobile" class="left hide-on-med-and-down">
+          </ul>
+        </div>
+      </nav>
+    
+    
+
+
+      <h3>Carrocel</h3>
+
+      <div class="carousel">
+        <a class="carousel-item" href="#one!"><img src="images/mona1.jpg"></a>
+        <a class="carousel-item" href="#two!"><img src="images/mona2.jpg"></a>
+        <a class="carousel-item" href="#three!"><img src="images/mona3.jpg"></a>
+      </div>
+
+
+      <h3>Formulário de Contato</h3>
+    
+      <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s12">
+              <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+              <label for="first_name">Nome</label>
+            </div>
+
+          </div>
+
+
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="email" type="email" class="validate">
+              <label for="email">Email</label>
+            </div>
+          </div>
+          
+        </form>
+      </div>
+    
+    
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.carousel');
+        var instances = M.Carousel.init(elems);
+    });
+</script>
