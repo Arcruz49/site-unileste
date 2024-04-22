@@ -1,0 +1,18 @@
+body{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; 
+      margin: 0;
+      background: linear-gradient(45deg, #000000 20%, #2c8bd4 0%);
+    }
+
+.btn{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  background-color: #8ed7e9;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #000000;
+}
